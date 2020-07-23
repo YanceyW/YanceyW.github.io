@@ -1,0 +1,10 @@
+@media only screen and (max-width:828px) {
+    /* For IPhoneXR: */
+    html body {
+        size: 200%;
+        font-size: 200%;
+    }
+    html head {
+        size: 200%;
+    }
+}
