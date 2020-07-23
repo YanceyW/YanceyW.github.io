@@ -26,7 +26,6 @@
 body {
     /*img can be: 11,23,26,40,42,58*/
     background-image: url(/Image/58.jpg);
-    opacity: 1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
