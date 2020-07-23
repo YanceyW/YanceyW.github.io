@@ -1,0 +1,29 @@
+@media only screen and (max-width:828px) {
+    /* For IPhoneXR: */
+    body {
+        background-image: url(/Image/img/QLHaiDi.jpeg);
+    }
+}
+
+.imgSlide {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(/Image/45.jpg);
+}
+
+
+/*
+header p.title {
+    font-size: 200%;
+    text-align: center;
+    margin-left: 45%;
+    top: 40%;
+    position: absolute;
+    padding: 2% 2% 2% 2%;
+    background-color: aliceblue;
+    opacity: 0.5;
+    border-radius: 50%;
+}*/

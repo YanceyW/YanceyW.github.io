@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yancey录的歌 </title>
+    <link rel="stylesheet" type="text/css" href="/CSS/Record.css">
+    <script src="/Script/LoveMouseEffect.js"></script>
+</head>
+
+<header>
+    <a style="color: aliceblue;" href="/index.html" target="_blank"> 回到首页/Home </a>
+    <a style="color: aliceblue;" href="/Page/Game/Game.html" target="_blank">我的游戏/Game</a>
+</header>
+
+<body>
+    <div id="goCenter">
+        <h1 style="color:red;">Yancey录的歌
+        </h1>
+        <h1><a style="color: aqua;" href="http://kg.qq.com/node/personal?uid=679f9c82252c3e8b" target="_blank">或者你可以来我的全民K歌听(●'◡'●) 点下就进来</a></h1>
+        <audio src="" controls='controls' id="audioPlayer">
+            你这个浏览器不支持我的音乐播放器，换个新的吧
+            Your browser doesn't suppor my player, try another one
+        </audio>
+        <div>
+            <button id="btn" onClick="playlist.prevTrack()"><img src="/Image/img/left.png" /></button>
+            <button id="btn" onclick="playlist.toggleMusic()"><img src="/Image/img/play.png" /></button>
+            <button id="btn" onClick="playlist.nextTrack()"><img src="/Image/img/right.png" /></button>
+            <button id="btn" onClick="playlist.toggleShuffle()"><img src="/Image/img/shuffle.png" /></button>
+        </div>
+        <ul id="playlist">
+            <li><a href="/Record/123我爱你.mp4">123我爱你</a></li>
+            <li><a href="/Record/Burning.m4a">Burning</a></li>
+            <li><a href="/Record/Counting Stars.m4a">Counting Stars</a></li>
+            <li><a href="/Record/Demons.m4a">Demons</a></li>
+            <li><a href="/Record/Diamonds.m4a">Diamonds</a></li>
+            <li><a href="/Record/Heaven Knows.m4a">Heaven Knows</a></li>
+            <li><a href="/Record/In The End.m4a">In The End</a></li>
+            <li><a href="/Record/Love Yourself.m4a">Love Yourself</a></li>
+            <li><a href="/Record/Rolling In The Deep.m4a">Rolling In The Deep</a></li>
+            <li><a href="/Record/Something Just Like This.m4a">Something Just Like This</a></li>
+            <li><a href="/Record/The Phoenix.m4a">Phoenix</a></li>
+            <li><a href="/Record/一个深爱的女孩.m4a">一个深爱的女孩</a></li>
+            <li><a href="/Record/一曲相思.m4a">一曲相思</a></li>
+            <li><a href="/Record/一次就好.m4a">一次就好</a></li>
+            <li><a href="/Record/一生有你.m4a">一生有你</a></li>
+            <li><a href="/Record/丁香花.m4a">丁香花</a></li>
+            <li><a href="/Record/七秒钟的记忆.m4a">七秒钟的记忆</a></li>
+            <li><a href="/Record/三国极乐净土.m4a">三国极乐净土</a></li>
+            <li><a href="/Record/不得不爱.mp4">不得不爱</a></li>
+            <li><a href="/Record/不老梦.m4a">不老梦</a></li>
+            <li><a href="/Record/丑八怪.m4a">丑八怪</a></li>
+            <li><a href="/Record/今天你要嫁给我.m4a">今天你要嫁给我</a></li>
+            <li><a href="/Record/今生最爱.m4a">今生最爱</a></li>
+            <li><a href="/Record/你懂得.m4a">你懂得</a></li>
+            <li><a href="/Record/偏爱.m4a">偏爱</a></li>
+            <li><a href="/Record/做我老婆好不好.m4a">做我老婆好不好</a></li>
+            <li><a href="/Record/光年之外.m4a">光年之外</a></li>
+            <li><a href="/Record/全世界宣布爱你.m4a">全世界宣布爱你</a></li>
+            <li><a href="/Record/全是爱.m4a">全是爱</a></li>
+            <li><a href="/Record/六月的雨.m4a">六月的雨</a></li>
+            <li><a href="/Record/再见只是陌生人.m4a">再见只是陌生人</a></li>
+            <li><a href="/Record/凉凉.m4a">凉凉</a></li>
+            <li><a href="/Record/刚好遇见你.m4a">刚好遇见你</a></li>
+            <li><a href="/Record/剑伤.m4a">剑伤</a></li>
+            <li><a href="/Record/剑心.m4a">剑心</a></li>
+            <li><a href="/Record/十年.m4a">十年</a></li>
+            <li><a href="/Record/千百度.m4a">千百度</a></li>
+            <li><a href="/Record/千里之外.m4a">千里之外</a></li>
+            <li><a href="/Record/半城烟沙.m4a">半城烟沙</a></li>
+            <li><a href="/Record/单身歌.m4a">单身歌</a></li>
+            <li><a href="/Record/单身狗之歌.m4a">单身狗之歌</a></li>
+            <li><a href="/Record/卡路里.m4a">卡路里</a></li>
+            <li><a href="/Record/只对你有感觉.m4a">只对你有感觉</a></li>
+            <li><a href="/Record/只要有你.m4a">只要有你</a></li>
+            <li><a href="/Record/可惜没如果.m4a">可惜没如果</a></li>
+            <li><a href="/Record/同桌的你.m4a">同桌的你</a></li>
+            <li><a href="/Record/后来.m4a">后来</a></li>
+            <li><a href="/Record/告白气球.m4a">告白气球</a></li>
+            <li><a href="/Record/哥只是个传说.m4a">哥只是个传说</a></li>
+            <li><a href="/Record/因为爱情.m4a">因为爱情</a></li>
+            <li><a href="/Record/国家.m4a">国家</a></li>
+            <li><a href="/Record/在心里从此永远有个你.m4a">在心里从此永远有个你</a></li>
+            <li><a href="/Record/坐在巷口的那对男女.m4a">坐在巷口的那对男女</a></li>
+            <li><a href="/Record/天下.m4a">天下</a></li>
+            <li><a href="/Record/天高地厚.m4a"> 天高地厚 </a></li>
+            <li><a href="/Record/天龙八部之宿敌.m4a">天龙八部之宿敌 </a></li>
+            <li><a href="/Record/如果当时.m4a">如果当时 </a></li>
+            <li><a href="/Record/学猫叫.m4a">学猫叫 </a></li>
+            <li><a href="/Record/小酒窝.m4a">小酒窝 </a></li>
+            <li><a href="/Record/幻听.m4a"> 幻听</a></li>
+            <li><a href="/Record/庐州月.m4a"> 庐州月</a></li>
+            <li><a href="/Record/往后余生.m4a"> 往后余生</a></li>
+            <li><a href="/Record/心痛2009.m4a"> 心痛2009</a></li>
+            <li><a href="/Record/快乐崇拜.m4a">快乐崇拜 </a></li>
+            <li><a href="/Record/怀念青春.m4a"> 怀念青春</a></li>
+            <li><a href="/Record/情非得已.m4a">情非得已 </a></li>
+            <li><a href="/Record/惊鸿一面.mp4">惊鸿一面 </a></li>
+            <li><a href="/Record/我从草原来.m4a">我从草原来 </a></li>
+            <li><a href="/Record/我们好像在哪见过.mp4"> 我们好像在哪见过</a></li>
+            <li><a href="/Record/我好喜欢你.m4a"> 我好喜欢你</a></li>
+            <li><a href="/Record/我爱你胜过你爱我.m4a">我爱你胜过你爱我 </a></li>
+            <li><a href="/Record/我的好兄弟.m4a">我的好兄弟 </a></li>
+            <li><a href="/Record/拯救(2013再生Rap版).m4a">拯救(2013再生Rap版) </a></li>
+            <li><a href="/Record/明天过后.m4a">明天过后 </a></li>
+            <li><a href="/Record/是风动.m4a"> 是风动</a></li>
+            <li><a href="/Record/是风动2.m4a"> 是风动2</a></li>
+            <li><a href="/Record/曾经的你.m4a">曾经的你 </a></li>
+            <li><a href="/Record/月光.m4a"> 月光</a></li>
+            <li><a href="/Record/月牙湾.m4a">月牙湾 </a></li>
+            <li><a href="/Record/有何不可.m4a">有何不可 </a></li>
+            <li><a href="/Record/有点甜.m4a"> 有点甜</a></li>
+            <li><a href="/Record/桃花朵朵开.m4a">桃花朵朵开 </a></li>
+            <li><a href="/Record/桃花笑.m4a">桃花笑 </a></li>
+            <li><a href="/Record/棉花糖.m4a">棉花糖 </a></li>
+            <li><a href="/Record/此生不换.m4a">此生不换 </a></li>
+            <li><a href="/Record/没离开过(Live).m4a">没离开过(Live) </a></li>
+            <li><a href="/Record/没离开过(Live)_Chenglish.m4a">没离开过(Live)_中英结合版 </a></li>
+            <li><a href="/Record/泡沫.m4a">泡沫 </a></li>
+            <li><a href="/Record/流行歌曲.m4a">流行歌曲 </a></li>
+            <li><a href="/Record/浪人琵琶.m4a"> 浪人琵琶</a></li>
+            <li><a href="/Record/海阔天空.m4a">海阔天空 </a></li>
+            <li><a href="/Record/消愁.m4a"> 消愁</a></li>
+            <li><a href="/Record/清明上河图.m4a">清明上河图 </a></li>
+            <li><a href="/Record/清明雨上.m4a">清明雨上 </a></li>
+            <li><a href="/Record/灰色头像.m4a"> 灰色头像</a></li>
+            <li><a href="/Record/烟笼长安.m4a">烟笼长安 </a></li>
+            <li><a href="/Record/爱你没错.m4a"> 爱你没错</a></li>
+            <li><a href="/Record/爱你没错2.m4a"> 爱你没错2</a></li>
+            <li><a href="/Record/爱情码头.m4a"> 爱情码头</a></li>
+            <li><a href="/Record/爱情转移.m4a">爱情转移 </a></li>
+            <li><a href="/Record/牵丝戏.m4a">牵丝戏 </a></li>
+            <li><a href="/Record/琵琶行.m4a">琵琶行 </a></li>
+            <li><a href="/Record/生生世世爱.m4a"> 生生世世爱</a></li>
+            <li><a href="/Record/痛彻心扉.m4a"> 痛彻心扉</a></li>
+            <li><a href="/Record/痴心绝对.m4a"> 痴心绝对</a></li>
+            <li><a href="/Record/白头到老.m4a">白头到老 </a></li>
+            <li><a href="/Record/盗将行.m4a">盗将行 </a></li>
+            <li><a href="/Record/离人愁.m4a">离人愁 </a></li>
+            <li><a href="/Record/秋天不回来.m4a">秋天不回来 </a></li>
+            <li><a href="/Record/穷开心.m4a"> 穷开心</a></li>
+            <li><a href="/Record/童话.m4a"> 童话</a></li>
+            <li><a href="/Record/第三十八年夏至.m4a">第三十八年夏至 </a></li>
+            <li><a href="/Record/等一分钟.m4a">等一分钟 </a></li>
+            <li><a href="/Record/等你等了那么久.m4a"> 等你等了那么久</a></li>
+            <li><a href="/Record/答案.mp4">答案 </a></li>
+            <li><a href="/Record/素颜.m4a"> 素颜</a></li>
+            <li><a href="/Record/红尘情歌.m4a">红尘情歌 </a></li>
+            <li><a href="/Record/红昭愿.m4a">红昭愿 </a></li>
+            <li><a href="/Record/红玫瑰.m4a">红玫瑰 </a></li>
+            <li><a href="/Record/红颜.m4a">红颜 </a></li>
+            <li><a href="/Record/绅士.m4a">绅士 </a></li>
+            <li><a href="/Record/缘分.m4a">缘分 </a></li>
+            <li><a href="/Record/缘分一道桥.m4a"> 缘分一道桥</a></li>
+            <li><a href="/Record/美丽的神话.m4a">美丽的神话 </a></li>
+            <li><a href="/Record/老人与海.m4a">老人与海 </a></li>
+            <li><a href="/Record/老男孩.m4a"> 老男孩</a></li>
+            <li><a href="/Record/老鼠爱大米.m4a">老鼠爱大米 </a></li>
+            <li><a href="/Record/花好月圆夜(国语版).mp4"> 花好月圆夜(国语版)</a></li>
+            <li><a href="/Record/花香.m4a"> 花香</a></li>
+            <li><a href="/Record/该死的温柔.m4a">该死的温柔 </a></li>
+            <li><a href="/Record/说散就散.m4a">说散就散 </a></li>
+            <li><a href="/Record/起风了.m4a">起风了 </a></li>
+            <li><a href="/Record/辞·九门回忆.m4a"> 辞·九门回忆</a></li>
+            <li><a href="/Record/遇见.m4a"> 遇见</a></li>
+            <li><a href="/Record/错错错.m4a">错错错 </a></li>
+            <li><a href="/Record/锦鲤抄.m4a">锦鲤抄 </a></li>
+            <li><a href="/Record/降温.m4a"> 降温</a></li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="/Script/AudioPlayers.js"></script>
+    <script>
+        // loads the audio player
+        var config = {
+            autoplay: true,
+            loop: true,
+            shuffle: true
+        };
+        var playlist = new AudioPlaylist();
+    </script>
+
+</body>
+
+</html>
