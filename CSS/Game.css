@@ -8,3 +8,7 @@
         size: 300%;
     }
 }
+
+body {
+    background-image: url(/Image/50.jpg);
+}
