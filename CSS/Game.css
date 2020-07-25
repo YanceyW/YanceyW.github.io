@@ -1,14 +1,30 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
     html body {
-        size: 300%;
-        font-size: 300%;
+        background-image: url(/Image/Mobile/1.jpg);
     }
-    html head {
-        size: 300%;
+    html body center#score {
+        margin-top: 45%;
+    }
+    header {
+        font-size: 150%;
     }
 }
 
 body {
-    background-image: url(/Image/50.jpg);
+    background-image: url(/Image/Desktop/50.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #bbada0;
+}
+
+#score {
+    font: bold 50px Arial, Microsoft Yahei;
 }

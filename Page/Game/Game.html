@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <meta charset="utf-8" name="viewpoint" content="width=device-width, inintal-scal = 1.0">
-    <link rel="stylesheet" href="/CSS/Game.css">
-</header>
 
 <head>
+    <meta charset="utf-8" name="viewpoint" content="width=device-width, inintal-scal = 1.0">
     <title>2048</title>
-    <style>
-        canvas {
-            display: block;
-            margin: 0 auto;
-            border-radius: 10px;
-            background-color: #bbada0;
-        }
-    </style>
+    <link rel="stylesheet" href="/CSS/Game.css">
+    <script src="/Script/LoveMouseEffect.js"></script>
 </head>
 
+<header>
+    <a style="position: absolute;font-size: 100%;display: contents;" href="/index.html"> 回到首页/Home </a>
+    <a style="position: absolute;font-size: 100%;display: contents;" href="/Page/Record/Record.html"> 我录的歌/Record </a>
+</header>
+
 <body>
-    <header>
-        <a href="/index.html"> 回到首页/Home </a>
-        <a href="/Page/Record/Record.html"> 我录的歌/Record </a>
-        <script src="/Script/LoveMouseEffect.js"></script>
-    </header>
-    <center id="score" style="font:bold 25px Arial,Microsoft Yahei"></center><br />
+    <center id="score"></center><br />
     <canvas id="canvas" width="500" height="500"></canvas>
     <script src="/Script/Game.js"></script>
 </body>

@@ -119,7 +119,7 @@
                 }
             }
             produce();
-            if (space == 0) alert("game over");
+            if (space == 0) alert("Game Over!");
             draw();
         }
         produce();

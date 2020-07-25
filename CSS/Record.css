@@ -1,7 +1,7 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
     html body {
-        background-image: url(/Image/img/QLHaiDi.jpeg);
+        background-image: url(/Image/Mobile/QLHaiDi.jpeg);
     }
     body ul#playlist {
         font-size: 100%;
@@ -25,7 +25,7 @@
 
 body {
     /*img can be: 11,23,26,40,42,58*/
-    background-image: url(/Image/58.jpg);
+    background-image: url(/Image/Desktop/58.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
