@@ -4,10 +4,7 @@
         background-image: url(/Image/Mobile/1.jpg);
     }
     html body center#score {
-        margin-top: 45%;
-    }
-    header {
-        font-size: 150%;
+        margin-top: 20%;
     }
 }
 
