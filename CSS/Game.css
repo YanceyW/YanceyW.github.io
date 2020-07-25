@@ -29,3 +29,7 @@
         #score {
             font: bold 50px Arial, Microsoft Yahei;
         }
+        
+        #canvas {
+            width: 800px;
+        }
