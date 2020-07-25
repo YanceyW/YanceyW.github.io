@@ -2,6 +2,9 @@
     /* For IPhoneXR: */
     html body {
         background-image: url(/Image/Mobile/1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
     html body center#score {
         margin-top: 20%;
