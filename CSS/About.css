@@ -13,16 +13,23 @@
         text-decoration: none;
     }
     /*phone screenshort*/
-    .insertImg {
+    img.insertImg {
         width: 100%;
     }
-    .videoSize {
+    iframe.videoSize {
         width: 100%;
     }
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 .insertImg {
-    width: 10%;
+    width: 30%;
+    float: left;
 }
 
 body {
