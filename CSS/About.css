@@ -1,6 +1,6 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
-    div.parallax {
+    html body {
         background-image: url(/Image/Mobile/15.jpg);
     }
     .navbar a,
@@ -24,10 +24,10 @@ html {
 }
 
 img {
-    width: fit-content;
+    width: 10%;
 }
 
-.parallax {
+body {
     /* The image used */
     background-image: url(/Image/Desktop/9.jpg);
     /* Full height */
