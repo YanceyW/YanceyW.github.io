@@ -13,7 +13,7 @@
         text-decoration: none;
     }
     /*phone screenshort*/
-    img {
+    .insertImg {
         width: 100%;
     }
     .videoSize {
@@ -21,12 +21,7 @@
     }
 }
 
-body,
-html {
-    height: 100%;
-}
-
-img {
+.insertImg {
     width: 10%;
 }
 
@@ -53,6 +48,7 @@ body {
 
 .videoSize {
     width: 50%;
+    display: inline;
 }
 
 
