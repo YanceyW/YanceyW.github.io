@@ -6,7 +6,7 @@
     body ul#playlist {
         font-size: 100%;
         width: auto;
-        height: 250px;
+        height: 200px;
         overflow: scroll;
     }
     body div#goCenter {
