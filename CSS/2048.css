@@ -9,6 +9,15 @@
                 width: 370px;
                 margin-left: -5px;
             }
+            .navbar a,
+            .subnav .subnavbtn {
+                float: left;
+                font-size: 26px;
+                color: white;
+                text-align: center;
+                padding: 24px 26px;
+                text-decoration: none;
+            }
         }
         
         body {

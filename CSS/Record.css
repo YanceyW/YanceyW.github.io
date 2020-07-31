@@ -12,6 +12,15 @@
     body div#goCenter {
         margin-left: 0%;
     }
+    .navbar a,
+    .subnav .subnavbtn {
+        float: left;
+        font-size: 26px;
+        color: white;
+        text-align: center;
+        padding: 24px 26px;
+        text-decoration: none;
+    }
     /*#btn img {
         width: 25px;
         height: 25px;

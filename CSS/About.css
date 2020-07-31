@@ -3,6 +3,15 @@
     div.parallax {
         background-image: url(/Image/Mobile/15.jpg);
     }
+    .navbar a,
+    .subnav .subnavbtn {
+        float: left;
+        font-size: 26px;
+        color: white;
+        text-align: center;
+        padding: 24px 26px;
+        text-decoration: none;
+    }
     /*phone screenshort*/
     img {
         width: 100%;
