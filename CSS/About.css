@@ -16,6 +16,9 @@
     img {
         width: 100%;
     }
+    .videoSize {
+        width: 100%;
+    }
 }
 
 body,
@@ -49,7 +52,7 @@ body {
 }
 
 .videoSize {
-    width: 50;
+    width: 50%;
 }
 
 
