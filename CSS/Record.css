@@ -114,6 +114,7 @@ div#goCenter {
     overflow: hidden;
     background-color: black;
     opacity: 0.75;
+    border-radius: 10px;
 }
 
 
@@ -168,6 +169,7 @@ div#goCenter {
     background-color: white;
     width: 100%;
     z-index: 1;
+    border-radius: 10px;
 }
 
 
@@ -177,6 +179,7 @@ div#goCenter {
     float: left;
     color: black;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 

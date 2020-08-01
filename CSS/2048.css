@@ -48,6 +48,7 @@
             overflow: hidden;
             background-color: black;
             opacity: 0.75;
+            border-radius: 10px;
         }
         /* Navigation links */
         
@@ -92,6 +93,7 @@
             background-color: white;
             width: 100%;
             z-index: 1;
+            border-radius: 10px;
         }
         /* Style the subnav links */
         
@@ -99,6 +101,7 @@
             float: left;
             color: black;
             text-decoration: none;
+            border-radius: 10px;
         }
         /* Add a grey background color on hover */
         
