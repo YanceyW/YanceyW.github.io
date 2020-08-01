@@ -3,6 +3,9 @@
     html body {
         background-image: url(/Image/Mobile/15.jpg);
     }
+    .navbar {
+        background-color: black;
+    }
     .navbar a,
     .subnav .subnavbtn {
         float: left;
@@ -73,6 +76,8 @@ body {
 
 .navbar {
     overflow: hidden;
+    background-color: black;
+    opacity: 0.75;
 }
 
 

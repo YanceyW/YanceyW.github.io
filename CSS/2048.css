@@ -46,6 +46,8 @@
         
         .navbar {
             overflow: hidden;
+            background-color: black;
+            opacity: 0.75;
         }
         /* Navigation links */
         
