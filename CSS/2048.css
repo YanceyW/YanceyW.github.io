@@ -46,7 +46,6 @@
         
         .navbar {
             overflow: hidden;
-            background-color: #333;
         }
         /* Navigation links */
         
@@ -80,7 +79,7 @@
         
         .navbar a:hover,
         .subnav:hover .subnavbtn {
-            background-color: red;
+            background-color: black;
         }
         /* Style the subnav content - positioned absolute */
         
