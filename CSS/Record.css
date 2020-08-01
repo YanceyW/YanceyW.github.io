@@ -44,7 +44,7 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    font-weight: bold
+    font-weight: bold;
 }
 
 a:visited {
@@ -115,6 +115,7 @@ div#goCenter {
     background-color: black;
     opacity: 0.75;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 
