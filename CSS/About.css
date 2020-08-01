@@ -16,7 +16,7 @@
         width: 100%;
     }
     iframe.videoSize {
-        width: 100%;
+        height: 100%;
     }
     div.content {
         margin-left: 0%;
@@ -62,7 +62,8 @@ body {
 }
 
 .videoSize {
-    width: 50%;
+    width: 100%;
+    height: 680px;
     display: inline;
     opacity: 1;
 }
