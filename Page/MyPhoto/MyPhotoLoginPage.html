@@ -20,16 +20,22 @@
         <label for="pswd"><b>Password/密码:</b></label>
         <input type="password" placeholder="Enter Password/输入密码" name="pswd" required>
 
-        <button type="submit">Login</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="pswd">Forgot <a href="#">password?</a></span>
+        <button type="submit" onclick="checkPswd();">Login</button>
     </div>
 </form>
 
+<script>
+    function checkPswd() {
+        var Username = "yancey";
+        var inputUsername = document.getElementById("uname").value;
+        var Password = "yancey";
+        var inputPassword = document.getElementById("pswd").value;
+        if (inputUsername == Username && inputPassword == Password) {
+            window.location = "Yancey.html";
+        }
+        else {
+            alert("wrong password/密码错误");
+        }
+    }
+</script>
 </html>
