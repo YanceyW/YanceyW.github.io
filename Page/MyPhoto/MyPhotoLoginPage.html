@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CSS/MyPhotoLoginPage.css">
+    <script src="/Script/MyPhotoLoginPage.js"></script>
+    <script src="/Script/LoveMouseEffect.js"></script>
+</head>
+
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+        <img src="/Image/others/Yancey's QR Code.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username/用户名:</b></label>
+        <input type="text" placeholder="Enter Username/输入用户名" name="uname" required>
+
+        <label for="pswd"><b>Password/密码:</b></label>
+        <input type="password" placeholder="Enter Password/输入密码" name="pswd" required>
+
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="pswd">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+
+</html>
