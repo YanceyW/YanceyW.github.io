@@ -1,5 +1,19 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
+    input[type=password] {
+      padding: 48px 20px;
+      font-size: xxx-large;
+    }
+    label{
+      font-size: xxx-large;
+    }
+    img.avatar {
+      width: 99%;
+    }
+    button {
+      padding: 48px 20px;
+      font-size: xxx-large;
+    }
 }
 
 /* Bordered form */
@@ -10,7 +24,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -35,13 +49,6 @@ form {
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-  }
-  
   /* Center the avatar image inside this container */
   .imgcontainer {
     text-align: center;
@@ -56,21 +63,4 @@ form {
   /* Add padding to containers */
   .container {
     padding: 16px;
-  }
-  
-  /* The "Forgot password" text */
-  span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.psw {
-      display: block;
-      float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
   }
