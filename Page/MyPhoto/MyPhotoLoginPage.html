@@ -13,23 +13,21 @@
     </div>
 
     <div class="container">
-<!--         <label for="uname"><b>Username/用户名:</b></label>
-        <input type="text" placeholder="Enter Username/输入用户名" name="uname" required> -->
-
         <label for="pswd"><b>Password/密码:</b></label>
-        <input type="password" placeholder="Enter Password/输入密码" name="pswd" required>
+        <input type="password" placeholder="Enter Password/输入密码" name="pswd" id="pswd" required>
 
         <button type="submit" onclick="checkPswd();">Login</button>
     </div>
 </form>
 
+
+
 <script>
     function checkPswd() {
-/*         var       var inputUsername = document.getElementById("uname").value; */
-        var Password = "yancey";
+        var Password = "872587993";
         var inputPassword = document.getElementById("pswd").value;
         if (inputPassword == Password) {
-            window.location = "Yancey.html";
+            window.location = "/Page/MyPhoto/Yancey.html";
         }
         else {
             alert("wrong password/密码错误");

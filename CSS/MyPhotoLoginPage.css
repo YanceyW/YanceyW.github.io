@@ -1,19 +1,19 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
-    input[type=password] {
-      padding: 48px 20px;
-      font-size: xxx-large;
-    }
-    label{
-      font-size: xxx-large;
-    }
-    img.avatar {
-      width: 99%;
-    }
-    button {
-      padding: 48px 20px;
-      font-size: xxx-large;
-    }
+  div.container input[type=text],input[type=password] {
+    padding: 48px 20px;
+    font-size: xxx-large;
+  }
+  div.container label{
+    font-size: xxx-large;
+  }
+  div.imgcontainer img.avatar {
+    width: 99%;
+  }
+  button {
+    padding: 48px 20px;
+    font-size: xxx-large;
+  }
 }
 
 /* Bordered form */
@@ -24,7 +24,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=password] {
+  input[type=text],input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
