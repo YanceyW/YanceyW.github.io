@@ -1,30 +1,28 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
-  div.container input[type=text],input[type=password] {
-    padding: 48px 20px;
-    font-size: xxx-large;
+    input#pswd {
+    padding: 36px 20px;
   }
-  div.container label{
-    font-size: xxx-large;
+  input[type=button] {
+    padding: 36px 20px;
   }
-  div.imgcontainer img.avatar {
-    width: 99%;
-  }
-  button {
-    padding: 48px 20px;
-    font-size: xxx-large;
+
+  form {
+    margin-top: 50%;
   }
 }
 
 /* Bordered form */
 form {
-    border: 3px solid #f1f1f1;
+    font-size: xxx-large;
     height: 100%;
     width: 100%;
+    margin-top: 15%;
   }
   
   /* Full-width inputs */
-  input[type=text],input[type=password] {
+  input[type=password] {
+    margin: center;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -34,7 +32,7 @@ form {
   }
   
   /* Set a style for all buttons */
-  button {
+  input[type=button] {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -45,22 +43,6 @@ form {
   }
   
   /* Add a hover effect for buttons */
-  button:hover {
+  input[type=button]:hover {
     opacity: 0.8;
-  }
-  
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
-    width: 20%;
-  }
-  
-  /* Add padding to containers */
-  .container {
-    padding: 16px;
   }
