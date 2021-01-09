@@ -5,9 +5,8 @@ function checkPswd() {
     var v4 = (Math.pow(0.2, 3) * Math.pow(10, 7));
     var v5 = (0.7 * Math.pow(10, 4));
     var v6 = (0.3 * 0.3 * 1.1 * Math.pow(10, 4));
-    var v7 = (0.3 * 0.3 * 1.1 * Math.pow(10, 4));
-    var v8 = Math.sqrt(9);
-    var P = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8;
+    var v7 = Math.sqrt(9);
+    var P = v1 + v2 + v3 + v4 + v5 + v6 + v7;
     var ip = document.getElementById("pswd").value;
     if (ip == P) {
         window.location = "/Page/MyPhoto/Yancey.html";
