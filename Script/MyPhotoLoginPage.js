@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, inintal-scal = 1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="/CSS/MyPhotoLoginPage.css">
-    <script src="/Script/LoveMouseEffect.js"></script>
-</head>
-
-<form>
-    <label for="pswd"><b>Password/密码:</b></label>
-    <input type="password" placeholder="Enter Password/输入密码" name="pswd" id="pswd" required>
-    <input type="button" value="sumbit" onclick="checkPswd();">
-</form>
-<script>
 function checkPswd() {
     var v1 = (0.8 * Math.pow(10, 9));
     var v2 = (0.8 * 0.9 * Math.pow(10, 8));
@@ -31,5 +15,4 @@ function checkPswd() {
     else {
         alert("wrong password/密码错误");
     }
-}</script>
-</html>
+}
