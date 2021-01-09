@@ -2,9 +2,10 @@
     /* For IPhoneXR: */
     input#pswd {
     padding: 36px 20px;
+    font-size: 24px;
   }
   input[type=button] {
-    padding: 36px 20px;
+    font-size: 36px;
   }
 
   form {
