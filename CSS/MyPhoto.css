@@ -1,0 +1,63 @@
+@media only screen and (max-width:828px) {
+    /* For IPhoneXR: */
+    .gallery{
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .gallery::-webkit-scrollbar {
+    display: none;
+}
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.gallery {
+    border: 2px solid rgb(228, 228, 228);
+    width: auto;
+    width: 99%;
+    height: 220px;
+    overflow: scroll;
+    white-space:nowrap;
+    overflow-y: hidden;
+    
+
+}
+.gallery img{
+    height: 200px;
+}
+
+.gallery:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
