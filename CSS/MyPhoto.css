@@ -1,7 +1,7 @@
 @media only screen and (max-width:828px) {
     /* For IPhoneXR: */
     .gallery{
-        height: 200px;
+    height: 200px;
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -11,7 +11,7 @@
     /* Hide scrollbar for Chrome, Safari and Opera */
     .gallery::-webkit-scrollbar {
     display: none;
-}
+    }
 }
 
 h1 {
@@ -27,7 +27,6 @@ iframe {
 .gallery {
     border: 2px solid rgb(228, 228, 228);
     width: auto;
-    width: 99%;
     height: 220px;
     overflow: scroll;
     white-space:nowrap;
