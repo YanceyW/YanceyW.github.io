@@ -29,13 +29,13 @@
     div.content {
         margin-left: 0%;
         border-radius: 20px 20px 20px 20px;
+        width: 100%;
     }
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
+    width: 99.4%;
 }
 
 .insertImg {
@@ -47,7 +47,7 @@ body {
     /* The image used */
     background-image: url(/Image/Desktop/9.jpg);
     /* Full height */
-    height: 100%;
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -58,8 +58,8 @@ body {
 .content {
     /*height: 5;*/
     text-align: center;
-    position: absolute;
-    margin-left: 40%;
+    float: right;
+    width: 60%;
     opacity: 0.85;
     border: 2px solid aqua;
     border-radius: 50px 0px 0px 50px;
@@ -111,6 +111,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 
@@ -138,6 +139,7 @@ body {
     margin: 0;
     position: -webkit-sticky;
     position: sticky;
+    box-sizing: border-box;
 }
 
 
