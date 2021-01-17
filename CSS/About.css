@@ -5,6 +5,7 @@
     }
     .navbar {
         background-color: black;
+        margin-right: 8px;
     }
     .navbar a,
     .subnav .subnavbtn {
@@ -92,6 +93,9 @@ body {
     opacity: 0.75;
     border-radius: 10px;
     font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
 }
 
 
@@ -104,6 +108,9 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
 }
 
 
@@ -112,6 +119,9 @@ body {
 .subnav {
     float: left;
     overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
 }
 
 
@@ -126,6 +136,8 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 
@@ -141,7 +153,7 @@ body {
 
 .subnav-content {
     display: none;
-    position: absolute;
+    position: fixed;
     left: 0;
     background-color: white;
     width: 100%;
