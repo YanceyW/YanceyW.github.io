@@ -43,6 +43,58 @@ body {
     opacity: 1;
 }
 
+.insertImg:nth-of-type(2):hover,
+.insertImg:nth-of-type(2):active {
+    animation: shake 0.3s infinite;
+}
+
+/*animation for img 2 */
+@keyframes shake {
+    0% {
+        transform: translate(0.1em, 0.1em) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-0.1em, -0.2em) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-0.3em, 0em) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(0.3em, 0.2em) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(0.1em, -0.1em) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-0.1em, 0.2em) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-0.3em, 0.1em) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(0.3em, 0.1em) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-0.1em, -0.1em) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(0.1em, 0.2em) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(0.1em, -0.2em) rotate(-1deg);
+    }
+}
+
 body {
     /* The image used */
     background-image: url(/Image/Desktop/9.jpg);
