@@ -19,6 +19,9 @@
     img.insertImg {
         width: 100%;
     }
+    .insertImg:nth-of-type(2):active {
+        animation: shake 0.3s 3;
+    }
     iframe.videoSize {
         height: 100%;
     }
@@ -43,8 +46,7 @@ body {
     opacity: 1;
 }
 
-.insertImg:nth-of-type(2):hover,
-.insertImg:nth-of-type(2):active {
+.insertImg:nth-of-type(2):hover {
     animation: shake 0.3s infinite;
 }
 
