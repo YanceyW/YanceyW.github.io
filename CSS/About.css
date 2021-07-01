@@ -19,9 +19,12 @@
     img.insertImg {
         width: 100%;
     }
+    /* when user touch screen and hold will have same effect
     .insertImg:nth-of-type(2):active {
         animation: shake 0.3s 3;
     }
+
+    */
     iframe.videoSize {
         height: 100%;
     }
